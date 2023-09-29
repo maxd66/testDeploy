@@ -1,0 +1,24 @@
+/* Styles for the .resumeFrame class */
+.resumeFrame {
+  /* Set the width of the resume frame to 80% of its parent container */
+  width: 80%;
+  /* Set the height of the resume frame to 800px */
+  height: 800px;
+  /* Add a 1px solid gray border around the resume frame */
+  border: 1px solid gray;
+}
+
+/* Styles for the .resume-container class */
+.resume-container {
+  /* Use flex display to horizontally center the content within the container */
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for the .resume class */
+.resume {
+  /* Add padding around the content within the .resume container */
+  padding: 10px;
+  /* Center-align the text within the .resume container */
+  text-align: center;
+}

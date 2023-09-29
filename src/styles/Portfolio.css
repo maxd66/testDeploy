@@ -1,0 +1,126 @@
+/* Styles for the .portfolio-flex-wrap class */
+.portfolio-flex-wrap {
+  /* Use flex display with wrapping and center alignment */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles for the .portfolio class */
+.portfolio {
+  /* Add padding around the content within the .portfolio container */
+  padding: 10px;
+  /* Center-align the text within the .portfolio container */
+  text-align: center;
+}
+
+/* Styles for the .flex-wrap-item class */
+.flex-wrap-item {
+  /* Flex properties for responsive design */
+  flex: 1 1 600px;
+}
+
+/* Styles for the .container class */
+.container {
+  /* Position the container relative to its parent */
+  position: relative;
+  /* Set the width of the container to 50% */
+  width: 50%;
+}
+
+/* Styles for the .image class */
+.image {
+  /* Set the initial opacity to 1 (fully visible) */
+  opacity: 1;
+  /* Make the image a block element */
+  display: block;
+  /* Set the width to 100% and adjust the height automatically */
+  width: 100%;
+  height: auto;
+  /* Add a smooth transition effect with ease timing */
+  transition: .5s ease;
+  /* Hide the back face of the image */
+  backface-visibility: hidden;
+  /* Add a white background and a black border to the image */
+  background-color: white;
+  border: 3px solid black;
+}
+
+/* Styles for the .middle class */
+.middle {
+  /* Add a smooth transition effect with ease timing */
+  transition: .5s ease;
+  /* Set the initial opacity to 0 (hidden) */
+  opacity: 0;
+  /* Position the element in the center of its parent */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* Center-align the text within the .middle element */
+  text-align: center;
+  /* Use flex display for centering */
+  display: flex;
+}
+
+/* Styles for the .container class when hovered */
+.container:hover .image {
+  /* Reduce the opacity of the image when hovered to create a visual effect */
+  opacity: 0.3;
+}
+
+/* Styles for the .container class when hovered */
+.container:hover .middle {
+  /* Increase the opacity of the .middle element when hovered to display text */
+  opacity: 1;
+}
+
+/* Styles for the .text class */
+.text {
+  /* Set the background color to black */
+  background-color: black;
+  /* Set the text color to white */
+  color: white;
+  /* Set the font size to 16px */
+  font-size: 16px;
+  /* Add padding around the text */
+  padding: 16px 32px;
+  /* Remove text decoration (e.g., underlines) from links */
+  text-decoration: none;
+}
+
+/* Styles for the .text class when hovered */
+.text:hover {
+  /* Change the text color to blue when hovered */
+  color: blue;
+  /* Make the text bold when hovered */
+  font-weight: bold;
+}
+
+/* Styles for the .github-icon class */
+.github-icon {
+  /* Set the width of the GitHub icon to 30px */
+  width: 30px;
+}
+
+/* Styles for the .github-icon class when hovered */
+.github-icon:hover {
+  /* Reduce the opacity of the GitHub icon when hovered */
+  opacity: 0.3;
+}
+
+/* Media query for screens with a maximum width of 912px */
+@media screen and (max-width: 912px) {
+  /* Adjust styles for smaller screens */
+  .portfolio {
+      /* Change the flex direction to column for smaller screens */
+      flex-wrap: nowrap;
+      flex-direction: column;
+  }
+
+  /* Adjust the width of the .container for smaller screens */
+  .container {
+      width: 100%;
+  }
+}

@@ -1,0 +1,39 @@
+/* Universal CSS reset to remove default browser styling */
+
+/* Reset margins, padding, and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the height of the HTML element to 100% */
+html {
+  height: 100%;
+}
+
+/* Ensure the body element covers at least 100% of the viewport height */
+body {
+  min-height: 100%;
+  /* Reset the line height to the default value (1) */
+  line-height: 1;
+  /* Use a sans-serif font for text content */
+  font-family: sans-serif;
+}
+
+/* Reset font size for heading elements h1 through h6 to 100% */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+/* Reset font size and font family for various form elements */
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+/* Remove list-style (bullets or numbers) from ordered and unordered lists */
+ol, ul {
+  list-style: none;
+}

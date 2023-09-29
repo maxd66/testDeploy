@@ -1,0 +1,24 @@
+/* Styles for the .center-footer class */
+.center-footer {
+  /* Use flex display to horizontally align footer content to the right */
+  display: flex;
+  justify-content: right; /* This property should be 'flex-end' to work correctly */
+}
+
+/* Styles for the .footer-logo class */
+.footer-logo {
+  /* Set the width and height of the logo */
+  width: 50px;
+  height: 50px;
+  /* Display the logo as an inline-block element */
+  display: inline-block;
+  /* Allow for overflow (e.g., if the image is larger than the specified dimensions) */
+  overflow: auto;
+}
+
+/* Styles for the .footer-logo class when hovered */
+.footer-logo:hover {
+  /* Reduce the opacity of the logo when hovered to create a visual effect */
+  opacity: 0.6;
+}
+

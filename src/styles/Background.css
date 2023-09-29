@@ -1,0 +1,5 @@
+/* Styles for the 'body' and 'main' elements */
+body, main {
+  /* Set the background color of both 'body' and 'main' elements to a light green */
+  background-color: #d2faa7;
+}

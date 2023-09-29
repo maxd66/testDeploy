@@ -1,0 +1,20 @@
+/* Styles for the .profileImg class */
+.profileImg {
+  /* Set the width of the image to 150 pixels */
+  width: 150px;
+  /* Center the image horizontally by setting left and right margins to 'auto' */
+  margin-left: auto;
+  margin-right: auto;
+  /* Make the image a block element to center it within its container */
+  display: block;
+}
+
+/* Styles for the .aboutme class */
+.aboutme {
+  /* Add padding around the content within the .aboutme container */
+  padding: 10px;
+  /* Set the font size to 20 pixels */
+  font-size: 20px;
+  /* Center the text horizontally within the .aboutme container */
+  text-align: center;
+}

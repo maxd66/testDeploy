@@ -1,0 +1,30 @@
+/* Styles for the .contactme class */
+.contactme {
+  /* Add padding around the content within the .contactme container */
+  padding: 10px;
+  /* Center the text horizontally within the .contactme container */
+  text-align: center;
+}
+
+/* Styles for the .button class */
+.button {
+  /* Add a rounded border with a small radius */
+  border-radius: 5px;
+  /* Add a 1-pixel solid black border */
+  border: 1px solid rgb(0, 0, 0);
+  /* Set the text color to white */
+  color: white;
+  /* Set the background color to black */
+  background-color: rgb(0, 0, 0);
+}
+
+/* Styles for the .button class when hovered */
+.button:hover {
+  /* Make the text bold when hovered */
+  font-weight: bold;
+  /* Change the background color to blue when hovered */
+  background-color: blue;
+  /* Change the border color to blue when hovered */
+  border-color: blue;
+}
+

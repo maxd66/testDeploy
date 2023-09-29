@@ -1,0 +1,109 @@
+/* Styles for the .header-container class */
+.header-container {
+  /* Use flex display to create a header with space between its items */
+  display: flex;
+  justify-content: space-between;
+  /* Set the background color of the header to 'burlywood' */
+  background-color: burlywood;
+  /* Add padding around the header */
+  padding: 15px;
+}
+
+/* Styles for the .christian-title class */
+.christian-title {
+  /* Display the title as a block-level element */
+  display: block;
+  /* Set the text color to black */
+  color: black;
+  /* Add padding around the title */
+  padding: 15px;
+  /* Set the background color of the title to 'burlywood' */
+  background-color: burlywood;
+  /* Add rounded corners to the title */
+  border-radius: 5px;
+}
+
+/* Styles for the .navbar-style class */
+.navbar-style {
+  /* Remove the default list-style for the navigation */
+  list-style-type: none;
+  /* Use flex display for the navigation items */
+  display: flex;
+}
+
+/* Styles for direct children of .navbar-style */
+.navbar-style > * {
+  /* Set the text color of navigation items to white */
+  color: white;
+  /* Add padding around navigation items */
+  padding: 10px;
+}
+
+/* Styles for direct children of .navbar-style when hovered */
+.navbar-style > *:hover {
+  /* Change the text color of navigation items to white when hovered */
+  color: white;
+}
+
+/* Styles for nested children of .navbar-style */
+.navbar-style > * > * {
+  /* Remove text decoration (e.g., underlines) from links */
+  text-decoration: none;
+}
+
+/* Styles for the active navigation link */
+.nav-link-active {
+  /* Set the text color of the active link to white */
+  color: white;
+  /* Make the active link text bold */
+  font-weight: bold;
+}
+
+/* Styles for navigation links */
+.nav-link {
+  /* Set the text color of navigation links to white */
+  color: white;
+}
+
+/* Styles for the active and hovered navigation links */
+.nav-link-active:hover, .nav-link:hover {
+  /* Change the text color of active and hovered links to blue */
+  color: blue;
+  /* Make the text of active and hovered links bold */
+  font-weight: bold;
+}
+
+/* Media query for screens with a maximum width of 912px */
+@media screen and (max-width: 912px) {
+  /* Adjust styles for smaller screens */
+  .header-container {
+      /* Change the flex direction to column for smaller screens */
+      display: flex;
+      flex-direction: column;
+      /* Center align the content within the header */
+      justify-content: center;
+      text-align: center;
+      /* Remove padding around the header */
+      padding: 0px;
+  }
+  .navbar-style {
+      /* Change the flex direction to column for smaller screens */
+      display: flex;
+      flex-direction: column;
+  }
+
+  .christian-title {
+      /* Adjust padding for the title on smaller screens */
+      padding: 0px;
+      padding-top: 50px;
+      padding-bottom: 10px;
+      /* Increase font size for the title on smaller screens */
+      font-size: 60px;
+  }
+  .navbar-style > * {
+      /* Adjust padding and font size for navigation items on smaller screens */
+      color: white;
+      padding: 0px;
+      font-size: 20px;
+  }
+}
