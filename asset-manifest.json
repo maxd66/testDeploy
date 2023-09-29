@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.23001b96.css",
-    "main.js": "/reactportfolio/static/js/main.e739d721.js",
-    "static/media/CodingQuiz.jpg": "/reactportfolio/static/media/CodingQuiz.d89db87f81699b230d90.jpg",
-    "static/media/WeatherDashboard.jpg": "/reactportfolio/static/media/WeatherDashboard.9de6a974c3efb115f28d.jpg",
-    "static/media/workdayscheduler.jpg": "/reactportfolio/static/media/workdayscheduler.3a214cd5648a49599e72.jpg",
-    "static/media/TechBlog.jpg": "/reactportfolio/static/media/TechBlog.802378e0ed14e9d35687.jpg",
-    "static/media/moviesearch.jpg": "/reactportfolio/static/media/moviesearch.ecda93c215a60847be54.jpg",
-    "static/media/profilePic.png": "/reactportfolio/static/media/profilePic.ea43ad103a987fc3f2f7.png",
-    "static/media/linkedin-mark.png": "/reactportfolio/static/media/linkedin-mark.6d58dbe88058f8dab0f9.png",
-    "static/media/travelgem.jpg": "/reactportfolio/static/media/travelgem.cf0f4aacf0def9fb6c47.jpg",
-    "index.html": "/reactportfolio/index.html",
-    "main.23001b96.css.map": "/reactportfolio/static/css/main.23001b96.css.map",
-    "main.e739d721.js.map": "/reactportfolio/static/js/main.e739d721.js.map"
+    "main.css": "/testDeploy/static/css/main.23001b96.css",
+    "main.js": "/testDeploy/static/js/main.5e532c8c.js",
+    "static/media/CodingQuiz.jpg": "/testDeploy/static/media/CodingQuiz.d89db87f81699b230d90.jpg",
+    "static/media/WeatherDashboard.jpg": "/testDeploy/static/media/WeatherDashboard.9de6a974c3efb115f28d.jpg",
+    "static/media/workdayscheduler.jpg": "/testDeploy/static/media/workdayscheduler.3a214cd5648a49599e72.jpg",
+    "static/media/TechBlog.jpg": "/testDeploy/static/media/TechBlog.802378e0ed14e9d35687.jpg",
+    "static/media/moviesearch.jpg": "/testDeploy/static/media/moviesearch.ecda93c215a60847be54.jpg",
+    "static/media/profilePic.png": "/testDeploy/static/media/profilePic.ea43ad103a987fc3f2f7.png",
+    "static/media/linkedin-mark.png": "/testDeploy/static/media/linkedin-mark.6d58dbe88058f8dab0f9.png",
+    "static/media/travelgem.jpg": "/testDeploy/static/media/travelgem.cf0f4aacf0def9fb6c47.jpg",
+    "index.html": "/testDeploy/index.html",
+    "main.23001b96.css.map": "/testDeploy/static/css/main.23001b96.css.map",
+    "main.5e532c8c.js.map": "/testDeploy/static/js/main.5e532c8c.js.map"
   },
   "entrypoints": [
     "static/css/main.23001b96.css",
-    "static/js/main.e739d721.js"
+    "static/js/main.5e532c8c.js"
   ]
 }
